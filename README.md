@@ -21,6 +21,7 @@ That will output a list of all the conference talks on lds.org and their href. T
 Run in Docker:
 
 If you want to get a quick scrapy install up and running in docker there is an included Dockerfile you can build an image from. You can also do the following to run a prebuild image:
+
 `docker run -it llamashoes/scrapy`
 
 From there you can clone this repo somewhere are run scrapy like a boss. 
