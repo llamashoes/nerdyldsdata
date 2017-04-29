@@ -6,7 +6,7 @@ Scrapy is used to crawl lds.org and grab data.
 
 Here are my thoughts on how I would do this:
 
-* Dynamically reate a list of all the urls of conference talks.
+* Dynamically create a list of all the urls of conference talks.
 * Crawl each talk from the list, grabbing the data and exporting it in json to elasticsearch with proper tags etc. 
 
 The scrapy python file is in /conferencedata/conferencedata/scripts.
