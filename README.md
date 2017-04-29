@@ -29,10 +29,10 @@ From there you can clone this repo somewhere are run scrapy like a boss.
 TODO:
 
 * Scrape the urls to grab the data from each talk
- * Author
- * Title
- * URL
- * Date
- * Content 
+ * Author - DONE
+ * Title - DONE
+ * URL - DONE
+ * Date - TODO - put in a date format for indexing
+ * Content - DONE
 * Output in json to an elk stack somewhere 
 
