@@ -1,4 +1,4 @@
-import scrapy
+mport scrapy
 
 class TalkSpider(scrapy.Spider):
     name = "talktext"
@@ -16,9 +16,3 @@ class TalkSpider(scrapy.Spider):
                 'url': response.selector.xpath('/html/head/meta[contains(@property, "og:url")]/@content').extract(),
             }
 
-# Works but only grabs the content.
-#    def parse(self, response):
-#        for talk in response.css('div.article-content'):
-#            yield {
-#                'text': talk.css('p::text').extract(),
-#            }
