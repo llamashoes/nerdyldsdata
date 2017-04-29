@@ -1,4 +1,4 @@
-h1. Nerd Stuff
+# Nerd Stuff
 
 The end goal is to index all of general conference talks in elasticsearch. This is a start.
 
@@ -16,3 +16,8 @@ To run it (from /conferencedata/conferencedata)
 `scrapy crawl conference -o conf.json`
 
 That will output a list of all the conference talks on lds.org and their href. Thats as far as I have gotten at this point.
+
+TODO:
+
+* Scrape the urls to grab the data from each talk
+* Output in json to an elk stack somewhere 
